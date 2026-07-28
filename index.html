@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>L'Oréal Smart Advisor</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+
+    <header class="site-header">
+      <div class="logo-wrap">
+        <img src="img/loreal-logo.png" alt="L'Oréal" class="logo-img" onerror="this.style.display='none'; document.querySelector('.logo-text').style.display='block';" />
+        <div class="logo-text" style="display:none; font-size:28px; font-weight:700; color:#fff; letter-spacing:0.1em;">L'ORÉAL</div>
+        <div class="site-tagline">Because You're Worth It</div>
+        <div class="header-divider"></div>
+        <div class="site-title">Smart Routine &amp; Product Advisor</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="chatbox">
+        <div class="chat-header">
+          <div class="chat-header-dot"></div>
+          <span class="chat-header-title">Beauty Assistant &mdash; Online</span>
+        </div>
+
+        <div id="chatWindow" class="chat-window"></div>
+
+        <div class="suggestions" id="suggestions">
+          <button class="suggestion-chip" onclick="sendSuggestion(this)">Skincare routine for dry skin</button>
+          <button class="suggestion-chip" onclick="sendSuggestion(this)">Best serum for wrinkles</button>
+          <button class="suggestion-chip" onclick="sendSuggestion(this)">Hair care for damaged hair</button>
+          <button class="suggestion-chip" onclick="sendSuggestion(this)">Foundation recommendations</button>
+        </div>
+
+        <form id="chatForm" class="chat-form">
+          <label for="userInput" class="visually-hidden">Message</label>
+          <input
+            id="userInput"
+            type="text"
+            placeholder="Ask about products, routines, or ingredients..."
+            autocomplete="off"
+            required
+          />
+          <button type="submit" id="sendBtn">
+            <span class="material-icons">send</span>
+            <span class="visually-hidden">Send</span>
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 L'Oréal. All rights reserved.</p>
+      <nav>
+        <a href="https://www.loreal.com/en/privacy-policy/" target="_blank">Privacy Policy</a>
+        <a href="https://www.loreal.com/en/terms-and-conditions/" target="_blank">Terms of Use</a>
+        <a href="https://www.loreal.com/en/contact-us/" target="_blank">Contact</a>
+      </nav>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
