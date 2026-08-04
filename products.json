@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "name": "Foaming Facial Cleanser",
+  "brand": "CeraVe",
+  "category": "Cleanser",
+  "description": "A gentle foaming cleanser that removes dirt, oil, and makeup without disrupting the skin barrier.",
+  "skinType": ["Normal", "Oily"],
+  "routine": "Morning & Night",
+  "ingredients": [
+    "Ceramides",
+    "Niacinamide",
+    "Hyaluronic Acid"
+  ],
+  "price": "$17.99",
+  "image": "images/cerave-foaming-cleanser.png"
+}
