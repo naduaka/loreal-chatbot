@@ -1,16 +1,26 @@
-{
-  "id": 1,
-  "name": "Foaming Facial Cleanser",
-  "brand": "CeraVe",
-  "category": "Cleanser",
-  "description": "A gentle foaming cleanser that removes dirt, oil, and makeup without disrupting the skin barrier.",
-  "skinType": ["Normal", "Oily"],
-  "routine": "Morning & Night",
-  "ingredients": [
-    "Ceramides",
-    "Niacinamide",
-    "Hyaluronic Acid"
-  ],
-  "price": "$17.99",
-  "image": "images/cerave-foaming-cleanser.png"
-}
+[
+  {
+    "id": 1,
+    "name": "Foaming Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "Cleanser",
+    "description": "A gentle foaming cleanser that removes dirt, oil, and makeup while maintaining the skin barrier.",
+    "skinType": ["Normal", "Oily"],
+    "routine": "Morning & Night",
+    "ingredients": ["Ceramides", "Niacinamide", "Hyaluronic Acid"],
+    "price": "$17.99",
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500"
+  },
+  {
+    "id": 2,
+    "name": "Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "category": "Cleanser",
+    "description": "Hydrating cleanser that gently cleanses while restoring the skin's protective barrier.",
+    "skinType": ["Normal", "Dry"],
+    "routine": "Morning & Night",
+    "ingredients": ["Ceramides", "Hyaluronic Acid"],
+    "price": "$17.99",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500"
+  }
+]
